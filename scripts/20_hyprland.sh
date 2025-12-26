@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo pacman -S \
+sudo pacman -S --noconfirm \
   mesa \
   libdrm \
   wayland \
@@ -9,11 +9,12 @@ sudo pacman -S \
 
 sudo pacman -S hyprland
 
-sudo pacman -S \
+sudo pacman -S --noconfirm \
   waybar \
   foot \
   wofi \
   grim \
   slurp \
   wl-clipboard \
-  polkit-gnome
+  polkit-gnome \
+  kitty
